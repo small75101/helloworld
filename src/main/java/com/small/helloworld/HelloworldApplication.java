@@ -34,7 +34,7 @@ public class HelloworldApplication extends SpringBootServletInitializer {
 
     @GetMapping("/hello")
     public Object say(String who) {
-        return "hello " + (StringUtils.isEmpty(who) ? "world" : who) +"; nice to meeting to";
+        return "hello " + (StringUtils.isEmpty(who) ? "world" : who) +";  nice to meeting to";
     }
 
 }
