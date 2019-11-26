@@ -59,7 +59,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <warSourceExcludes>src/main/resources/**</warSourceExcludes>
-                    <warName>helloworld</warName>
+                    <warName>portalutil</warName>
                 </configuration>
             </plugin>
         </plugins>
